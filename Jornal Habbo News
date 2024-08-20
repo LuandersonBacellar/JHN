@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habbo News</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e1e1e1;
+        }
+        header {
+            background-color: #0099ff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #fff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            font-weight: bold;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #0099ff;
+            border-bottom: 3px solid #0099ff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .news-item, .event-item, .column-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+        }
+        .news-item h3, .event-item h3, .column-item h3 {
+            margin-top: 0;
+            color: #0099ff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #0099ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Habbo News</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#news">Notícias</a>
+            <a href="#events">Eventos</a>
+            <a href="#columns">Colunas</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="news">
+            <h2>Últimas Notícias</h2>
+            <div class="news-item">
+                <h
